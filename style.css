@@ -4,6 +4,7 @@ body {
   padding: 0;
   background-color: #f4f4f4;
 }
+
 .container {
   width: 80%;
   margin: auto;
@@ -13,123 +14,20 @@ body {
 header {
   background: #333;
   color: white;
-  padding-top: 30px;
-  min-height: 70px;
-  border-bottom: #bbb 1px solid;
-}
-
-header a {
-  color: #ffffff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
-}
-
-header ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  overflow: hidden;
-}
-
-header #branding {
-  float: left;
-}
-
-header #branding h1 {
-  margin: 0;
-}
-
-header .highlight, header a:hover {
-  color: #ffffff;
-  font-weight: bold;
-}
-
-header a:hover {
-  color: #ffffff;
-}
-
-header #branding img {
-  width: 120px;
-  height: auto;
-  float: left;
-}
-
-header nav {
-  float: right;
-  margin-top: 10px;
-}
-
-header .highlight, header a:hover {
-  color: #ffffff;
-  font-weight: bold;
-}
-
-header a:hover {
-  color: #ffffff;
-}
-
-header li, header li a {
-  display: inline;
-  margin-left: 20px;
-  padding: 0 5px 0 5px;
-  border-radius: 3px;
-}
-
-header #search {
-  float: right;
-  margin-top: 10px;
-}
-
-header #search input {
-  padding: 5px;
-  margin-top: 10px;
-  margin-right: 10px;
-  border-radius: 3px;
-  border: none;
-}
-
-header #search button {
-  padding: 5px;
-  margin-top: 10px;
-  border-radius: 3px;
-  border: none;
-  cursor: pointer;
-}
-
-header #search button img {
-  width: 20px;
-  height: auto;
-}
-
-main {
   padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 5px 0;
 }
 
 section {
-  float: left;
-  width: 70%;
-}
-
-article {
-  margin-bottom: 20px;
-}
-
-aside {
-  float: right;
-  width: 30%;
-  background: #333;
-  color: white;
-  padding: 20px;
-  border-radius: 5px;
-}
-
-aside img {
-  width: 80%;
-  height: auto;
-  border-radius: 5px;
-  margin: 0 auto;
-  display: block;
+  margin: 20px 0;
 }
 
 footer {
@@ -137,7 +35,4 @@ footer {
   color: white;
   text-align: center;
   padding: 10px 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
