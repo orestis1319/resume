@@ -1,57 +1,143 @@
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 12px;
-  max-width: 960px;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.container {
+  width: 80%;
   margin: auto;
-}
-h1 {
-  font-size: 3em;
-  letter-spacing: .6em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  overflow: hidden;
 }
 
-h2 {
-  font-size: 1.5em;
-  padding-bottom: 1em;
-}
-
-h3 {
-  font-size: 1em;
-  padding-bottom: 1em;
-}
 header {
-  text-align: center;
-  margin: auto 2em;
+  background: #333;
+  color: white;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #bbb 1px solid;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header .highlight, header a:hover {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #ffffff;
+}
+
+header #branding img {
+  width: 120px;
+  height: auto;
+  float: left;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header a:hover {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #ffffff;
+}
+
+header li, header li a {
+  display: inline;
+  margin-left: 20px;
+  padding: 0 5px 0 5px;
+  border-radius: 3px;
+}
+
+header #search {
+  float: right;
+  margin-top: 10px;
+}
+
+header #search input {
+  padding: 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 3px;
+  border: none;
+}
+
+header #search button {
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+header #search button img {
+  width: 20px;
+  height: auto;
+}
+
+main {
+  padding: 20px 0;
 }
 
 section {
-  margin: auto 1em 4em 2em;
+  float: left;
+  width: 70%;
 }
 
-i {
-  margin-right: .5em;
+article {
+  margin-bottom: 20px;
 }
 
-p {
-  margin: .2em auto
+aside {
+  float: right;
+  width: 30%;
+  background: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
 }
 
-hr {
-  border: none;
-  background-color: lightgray;
-  height: 1px;
+aside img {
+  width: 80%;
+  height: auto;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
 }
 
-h1, h2, h3 {
-  font-weight: 100;
-  margin-bottom: 0;
-}
-main { 
-  display: grid;
-  grid-template-columns: 40% 60%;
-  margin-top: 3em;
-}
-#mainLeft {
-  border-right: 1px solid lightgray;
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
